@@ -79,6 +79,7 @@ opkg install tailscale</pre>
     --accept-dns=false \
     --advertise-routes=10.0.0.0/24 \
     --advertise-exit-node</pre>
+                <p>If you're using OpenWrt == 22.03 you will also need to specify `--netfilter-mode=off`. For versions 23+ do NOT include netfilter-mode.  </p>
                 </section>
                 <div class="tips">
                     <h3>Tips:</h3>

@@ -64,6 +64,8 @@ tailscale up \
     --advertise-routes=10.0.0.0/24 \
     --advertise-exit-node
 ```
+> [!WARNING]
+> 如果你的OpenWrt版本为22.03，你还需要添加 `--netfilter-mode=off`参数， 对于 OpenWrt 23+ 则不应该包含该参数
 
 ---
 

@@ -13,6 +13,14 @@
 
 ## Repository Setup
 
+Import the public GPG key used to verify package signatures:
+
+**Run this command on your OpenWrt device:**
+
+```sh
+wget -O /tmp/key-build.pub https://gunanovo.github.io/openwrt-tailscale/key-build.pub && opkg-key add /tmp/key-build.pub
+```
+
 Add the package feed to your OpenWrt configuration:
 
 **Edit `/etc/opkg/customfeeds.conf`:**

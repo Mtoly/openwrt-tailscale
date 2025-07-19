@@ -13,6 +13,14 @@
 
 ## 软件源设置
 
+导入用于验证软件包签名的 GPG 公钥：
+
+**在你的 OpenWrt 设备上执行以下命令：**
+
+```sh
+wget -O /tmp/key-build.pub https://gunanovo.github.io/openwrt-tailscale/key-build.pub && opkg-key add /tmp/key-build.pub
+```
+
 将软件源添加到你的 OpenWrt 配置中：
 
 **编辑 `/etc/opkg/customfeeds.conf` 文件：**

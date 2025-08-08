@@ -71,6 +71,10 @@ button.inactive:hover {
     background-color: #7aade0;
 }
 
+#security-statement {
+    font-size: large;
+}
+
 h1 {
     color: #0066cc;
 }
@@ -156,7 +160,7 @@ code {
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
     font-family: monospace;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 
 pre {

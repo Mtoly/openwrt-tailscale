@@ -23,6 +23,9 @@
                 <button id="btn-usage-chinese" onclick="showSection('usage-chinese')">用法</button>
                 <div class="divider"></div>
                 <button id="btn-packages" onclick="showSection('packages')">Packages</button>
+                <div class="divider"></div>
+                <button id="btn-security-statement" onclick="showSection('security-statement')">Security Statement
+                    安全声明</button>
             </div>
             <h1><a href="https://github.com/GuNanOvO/openwrt-tailscale" target="_blank">Smaller Tailscale Repository For
                     OpenWrt</a></h1>
@@ -107,7 +110,8 @@ opkg install tailscale</pre>
                     <p>
                     <h3>Note:</h3> If you encounter any of the following situations: </p>
                     <ul>
-                        <li>Your device has limited RAM, and during usage, Tailscale consumes an excessive amount of memory;</li>
+                        <li>Your device has limited RAM, and during usage, Tailscale consumes an excessive amount of
+                            memory;</li>
                         <li>Or Tailscale is killed and restarted by the OOM Killer;</li>
                         <li>Or you’re not sure why Tailscale keeps restarting unexpectedly;</li>
                     </ul>
@@ -214,6 +218,138 @@ opkg install tailscale</pre>
                     </ol>
                 </div>
             </section>
+            <section id="security-statement">
+                <h1 style="text-align: center;">Feed Security Statement 软件源安全声明</h1>
+
+                <p>All <code>.ipk</code> packages provided by this OpenWrt software feed are built automatically via
+                    <a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions</a>,
+                    with a fully open-source, transparent, and auditable process.
+                </p>
+
+                <p>You can review the build workflows, scripts, logs, and release history at:
+                    <a href="https://github.com/GuNanOvO/openwrt-tailscale"
+                        target="_blank">https://github.com/GuNanOvO/openwrt-tailscale</a>
+                </p>
+
+                <h3>Build Integrity & Transparency</h3>
+                <ul>
+                    <li>
+                        <strong>Built from Official Source:</strong> All binaries are compiled from
+                        <a href="https://github.com/tailscale/tailscale" target="_blank">official Tailscale release
+                            source code</a>,
+                        without any functional modifications.
+                        <a href="https://upx.github.io/" target="_blank">UPX</a> is optionally used for binary
+                        compression.
+                    </li>
+                    <li>
+                        <strong>Fully Public Workflow:</strong> All
+                        <a href="https://github.com/GuNanOvO/openwrt-tailscale/tree/main/.github/workflows"
+                            target="_blank">build scripts</a>,
+                        packaging steps, compiler flags, and release assets are open for community audit.
+                    </li>
+                    <li>
+                        <strong>Automated & Reproducible:</strong> Builds are performed in
+                        <a href="https://docs.github.com/en/actions/using-workflows/about-workflows"
+                            target="_blank">GitHub's CI environment</a>,
+                        eliminating the risk of manual tampering.
+                    </li>
+                </ul>
+
+                <h3>Security Best Practices</h3>
+                <ul>
+                    <li>
+                        <strong>Minimal Attack Surface:</strong> The feed is served statically via
+                        <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, with no dynamic code or
+                        backend logic.
+                    </li>
+                    <li>
+                        <strong>No Manual Uploads:</strong> All artifacts are generated directly from source during
+                        <a href="https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions"
+                            target="_blank">automated CI runs</a> —
+                        never uploaded manually or by third parties.
+                    </li>
+                </ul>
+
+                <h3>User Recommendations</h3>
+                <p>To further validate the feed's trustworthiness, users are encouraged to:</p>
+                <ul>
+                    <li><a href="https://github.com/GuNanOvO/openwrt-tailscale/actions" target="_blank">Review the
+                            GitHub Actions workflows and build history</a></li>
+                    <li><a href="https://github.com/GuNanOvO/openwrt-tailscale#build" target="_blank">Reproduce builds
+                            locally or via GitHub</a> to verify reproducibility</li>
+                    <li>Verify checksums or cryptographic signatures (e.g., SHA256 or <code>usign</code>) of downloaded
+                        packages</li>
+                </ul>
+
+                <h3>Disclaimer</h3>
+                <p>While every effort has been made to ensure the security, transparency, and integrity of this feed, it
+                    is provided
+                    <a href="https://en.wikipedia.org/wiki/As_is" target="_blank">as-is</a>, with no warranties. Users
+                    should always evaluate the source code, build process, and decide independently whether to trust and
+                    use these packages.
+                </p>
+                <p>For a safer OpenWrt experience, it is recommended to use packages only from this feed or other
+                    trusted sources, and stay up to date with the repository.</p>
+
+                <hr>
+
+                <p>所有本软件源中的 <code>.ipk</code> 软件包均通过
+                    <a href="https://docs.github.com/zh/actions" target="_blank">GitHub Actions</a> 自动化构建，构建流程开源、透明、可审计。
+                </p>
+
+                <p>详细的构建脚本、日志和发布历史可在以下仓库查看：
+                    <a href="https://github.com/GuNanOvO/openwrt-tailscale"
+                        target="_blank">https://github.com/GuNanOvO/openwrt-tailscale</a>
+                </p>
+
+                <h3>构建透明性与可信性</h3>
+                <ul>
+                    <li>
+                        <strong>构建基于 <a href="https://github.com/tailscale/tailscale" target="_blank">Tailscale
+                                官方源代码</a>：</strong> 不做任何功能性更改，仅使用
+                        <a href="https://upx.github.io/" target="_blank">UPX</a> 等开源工具进行二进制压缩以减小体积。
+                    </li>
+                    <li>
+                        <strong>完全公开的工作流程：</strong>
+                        <a href="https://github.com/GuNanOvO/openwrt-tailscale/tree/main/.github/workflows"
+                            target="_blank">构建脚本</a>、打包流程、编译参数等均完全公开，供任何人审查验证。
+                    </li>
+                    <li>
+                        <strong>自动化与可复现性：</strong> 构建过程由
+                        <a href="https://docs.github.com/zh/actions" target="_blank">CI 自动执行</a>，避免人为干预，构建结果具备可复现性。
+                    </li>
+                </ul>
+
+                <h3>安全保障原则</h3>
+                <ul>
+                    <li>
+                        <strong>最小攻击面原则：</strong> Feed 页面托管在
+                        <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>，无需动态服务或后端执行，攻击面极小。
+                    </li>
+                    <li>
+                        <strong>零人工上传：</strong> 构建产物完全由
+                        <a href="https://docs.github.com/zh/actions" target="_blank">CI 自动生成</a>，无任何第三方上传或手动干预。
+                    </li>
+                </ul>
+
+                <h3>用户使用建议</h3>
+                <p>为了进一步验证本软件源的安全性，建议用户：</p>
+                <ul>
+                    <li><a href="https://github.com/GuNanOvO/openwrt-tailscale/actions" target="_blank">审查 GitHub
+                            Actions 构建脚本和构建日志</a></li>
+                    <li><a href="https://github.com/GuNanOvO/openwrt-tailscale#build" target="_blank">使用本仓库脚本在本地或 GitHub
+                            上自行构建</a> 以验证可复现性</li>
+                    <li>校验 .ipk 软件包的哈希值或签名（如 SHA256 或 <code>usign</code>）</li>
+                </ul>
+
+                <h3>风险提示</h3>
+                <p>尽管本项目已尽最大努力确保 Feed 的安全性、透明度与可信性，本软件源仍然是
+                    <a href="https://zh.wikipedia.org/wiki/%E6%8C%89%E5%8E%9F%E6%A0%B7%E6%8F%90%E4%BE%9B"
+                        target="_blank">“按原样”</a>提供，不附带任何形式的担保。请用户自行评估源代码与构建过程，并据此判断是否使用。
+                </p>
+                <p>为确保系统安全，请尽量从本源或 其他可信来源 获取软件包，并关注仓库更新动态。</p>
+            </section>
+
 
             <section id="packages" style="display: none;">
                 <table>
@@ -225,7 +361,7 @@ opkg install tailscale</pre>
                         </tr>
                     </thead>
                     <!-- tbody-anchor -->
-          <tbody>
+                    <tbody>
                         <tr>
                             <td><a href="Packages">Packages</a></td>
                             <td>24K</td>
@@ -242,77 +378,104 @@ opkg install tailscale</pre>
                             <td>2025-08-08 Fri 01:01:23 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_aarch64_cortex-a53.ipk">tailscale_v1.86.4_aarch64_cortex-a53.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_aarch64_cortex-a53.ipk">tailscale_v1.86.4_aarch64_cortex-a53.ipk</a>
+                            </td>
                             <td>5.7M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_aarch64_cortex-a72.ipk">tailscale_v1.86.4_aarch64_cortex-a72.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_aarch64_cortex-a72.ipk">tailscale_v1.86.4_aarch64_cortex-a72.ipk</a>
+                            </td>
                             <td>5.7M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_aarch64_cortex-a76.ipk">tailscale_v1.86.4_aarch64_cortex-a76.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_aarch64_cortex-a76.ipk">tailscale_v1.86.4_aarch64_cortex-a76.ipk</a>
+                            </td>
                             <td>5.7M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_aarch64_generic.ipk">tailscale_v1.86.4_aarch64_generic.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_aarch64_generic.ipk">tailscale_v1.86.4_aarch64_generic.ipk</a>
+                            </td>
                             <td>5.7M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_arm1176jzf-s_vfp.ipk">tailscale_v1.86.4_arm_arm1176jzf-s_vfp.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_arm1176jzf-s_vfp.ipk">tailscale_v1.86.4_arm_arm1176jzf-s_vfp.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_arm926ej-s.ipk">tailscale_v1.86.4_arm_arm926ej-s.ipk</a></td>
+                            <td><a href="tailscale_v1.86.4_arm_arm926ej-s.ipk">tailscale_v1.86.4_arm_arm926ej-s.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a15_neon-vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a15_neon-vfpv4.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_cortex-a15_neon-vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a15_neon-vfpv4.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a5_vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a5_vfpv4.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_cortex-a5_vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a5_vfpv4.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a7.ipk">tailscale_v1.86.4_arm_cortex-a7.ipk</a></td>
+                            <td><a href="tailscale_v1.86.4_arm_cortex-a7.ipk">tailscale_v1.86.4_arm_cortex-a7.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a7_neon-vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a7_neon-vfpv4.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_cortex-a7_neon-vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a7_neon-vfpv4.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a7_vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a7_vfpv4.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_cortex-a7_vfpv4.ipk">tailscale_v1.86.4_arm_cortex-a7_vfpv4.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a8_vfpv3.ipk">tailscale_v1.86.4_arm_cortex-a8_vfpv3.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_cortex-a8_vfpv3.ipk">tailscale_v1.86.4_arm_cortex-a8_vfpv3.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a9.ipk">tailscale_v1.86.4_arm_cortex-a9.ipk</a></td>
+                            <td><a href="tailscale_v1.86.4_arm_cortex-a9.ipk">tailscale_v1.86.4_arm_cortex-a9.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a9_neon.ipk">tailscale_v1.86.4_arm_cortex-a9_neon.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_cortex-a9_neon.ipk">tailscale_v1.86.4_arm_cortex-a9_neon.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_arm_cortex-a9_vfpv3-d16.ipk">tailscale_v1.86.4_arm_cortex-a9_vfpv3-d16.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_arm_cortex-a9_vfpv3-d16.ipk">tailscale_v1.86.4_arm_cortex-a9_vfpv3-d16.ipk</a>
+                            </td>
                             <td>5.6M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
@@ -332,27 +495,36 @@ opkg install tailscale</pre>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_i386_pentium-mmx.ipk">tailscale_v1.86.4_i386_pentium-mmx.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_i386_pentium-mmx.ipk">tailscale_v1.86.4_i386_pentium-mmx.ipk</a>
+                            </td>
                             <td>6.5M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_i386_pentium4.ipk">tailscale_v1.86.4_i386_pentium4.ipk</a></td>
+                            <td><a href="tailscale_v1.86.4_i386_pentium4.ipk">tailscale_v1.86.4_i386_pentium4.ipk</a>
+                            </td>
                             <td>6.5M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_mips64_mips64r2_normal.ipk">tailscale_v1.86.4_mips64_mips64r2_normal.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_mips64_mips64r2_normal.ipk">tailscale_v1.86.4_mips64_mips64r2_normal.ipk</a>
+                            </td>
                             <td>8.3M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_mips64_octeonplus_normal.ipk">tailscale_v1.86.4_mips64_octeonplus_normal.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_mips64_octeonplus_normal.ipk">tailscale_v1.86.4_mips64_octeonplus_normal.ipk</a>
+                            </td>
                             <td>8.3M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_mips64el_mips64r2_normal.ipk">tailscale_v1.86.4_mips64el_mips64r2_normal.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_mips64el_mips64r2_normal.ipk">tailscale_v1.86.4_mips64el_mips64r2_normal.ipk</a>
+                            </td>
                             <td>8.1M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
@@ -377,7 +549,9 @@ opkg install tailscale</pre>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_mipsel_24kc_24kf.ipk">tailscale_v1.86.4_mipsel_24kc_24kf.ipk</a></td>
+                            <td><a
+                                    href="tailscale_v1.86.4_mipsel_24kc_24kf.ipk">tailscale_v1.86.4_mipsel_24kc_24kf.ipk</a>
+                            </td>
                             <td>5.5M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
@@ -387,7 +561,8 @@ opkg install tailscale</pre>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
                         <tr>
-                            <td><a href="tailscale_v1.86.4_mipsel_mips32.ipk">tailscale_v1.86.4_mipsel_mips32.ipk</a></td>
+                            <td><a href="tailscale_v1.86.4_mipsel_mips32.ipk">tailscale_v1.86.4_mipsel_mips32.ipk</a>
+                            </td>
                             <td>5.5M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
@@ -396,7 +571,7 @@ opkg install tailscale</pre>
                             <td>6.9M</td>
                             <td>2025-08-08 Fri 01:01:22 UTC</td>
                         </tr>
-          </tbody>
+                    </tbody>
                     <!-- end-tbody-anchor -->
                 </table>
             </section>
@@ -408,7 +583,7 @@ opkg install tailscale</pre>
             <hr>
 
             <p>
-                <span>Built for OpenWrt compatible devices. </span>
+                <span>Built with ❤️ and shared with the community. </span>
                 <span>Open source on <a href="https://github.com/GuNanOvO/openwrt-tailscale">GitHub</a>.</span>
                 <span><a href="https://github.com/GuNanOvO/openwrt-tailscale">⭐Star it!</a></span>
                 <span><a href="https://github.com/GuNanOvO/openwrt-tailscale/blob/main/LICENSE">MIT License</a>.</span>
@@ -434,6 +609,7 @@ opkg install tailscale</pre>
             const buttons = [
                 { id: 'btn-usage', section: 'usage', label: 'Usage' },
                 { id: 'btn-usage-chinese', section: 'usage-chinese', label: '用法' },
+                { id: 'btn-security-statement', section: 'security-statement', label: 'Security Statement 安全声明' },
                 { id: 'btn-packages', section: 'packages', label: 'Packages' }
             ];
 
@@ -448,30 +624,30 @@ opkg install tailscale</pre>
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll("pre").forEach((pre) => {
-            const wrapper = document.createElement("div");
-            wrapper.classList.add("pre-wrapper");
+            document.querySelectorAll("pre").forEach((pre) => {
+                const wrapper = document.createElement("div");
+                wrapper.classList.add("pre-wrapper");
 
-            pre.parentNode.insertBefore(wrapper, pre);
-            wrapper.appendChild(pre);
+                pre.parentNode.insertBefore(wrapper, pre);
+                wrapper.appendChild(pre);
 
-            const btn = document.createElement("button");
-            btn.className = "copy-btn";
-            btn.textContent = "Copy";
-
-            btn.addEventListener("click", () => {
-            navigator.clipboard.writeText(pre.textContent).then(() => {
-                btn.textContent = "Copied!";
-                btn.classList.add("copied");
-                setTimeout(() => {
+                const btn = document.createElement("button");
+                btn.className = "copy-btn";
                 btn.textContent = "Copy";
-                btn.classList.remove("copied");
-                }, 2000);
-            });
-            });
 
-            wrapper.appendChild(btn);
-        });
+                btn.addEventListener("click", () => {
+                    navigator.clipboard.writeText(pre.textContent).then(() => {
+                        btn.textContent = "Copied!";
+                        btn.classList.add("copied");
+                        setTimeout(() => {
+                            btn.textContent = "Copy";
+                            btn.classList.remove("copied");
+                        }, 2000);
+                    });
+                });
+
+                wrapper.appendChild(btn);
+            });
         });
 
         function toggleTheme() {

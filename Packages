@@ -5,18 +5,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: i386_pentium-mmx
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: f3659d426de09af8a3db701cc0b7288c6ece8df627de3a5f49b58e721598ae09
-Size: 3607339
+SHA256sum: f6f256eb7defc9111d103dab633303480c9e0982e6ba9ed0f7812267f070fde9
+Size: 6327348
 Filename: tailscale_v1.90.2_i386_pentium-mmx.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565503
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3604850
+Installed-Size: 6323998
 
 
 Package: tailscale
@@ -26,18 +26,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: i386_pentium4
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 34cd061613a78bbe005c4dc66be6671588268157cea0b088694f21c0e7c32910
-Size: 3607333
+SHA256sum: c02495a270cf45276c664a444cdf20391259db67fc6e29a32026a3d7d7a9f2bc
+Size: 6327345
 Filename: tailscale_v1.90.2_i386_pentium4.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565503
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3604850
+Installed-Size: 6323998
 
 
 Package: tailscale
@@ -47,18 +47,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: x86_64
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 145998d436ccff374ead83691f51ae7846749747098f473faf7b3d6dbef8ab7c
-Size: 4133632
+SHA256sum: 14c2cc8f355ff9536a655dc37c7b7d563f101848c9469dab06b2b75137e0b88f
+Size: 6752663
 Filename: tailscale_v1.90.2_x86_64.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537494
+SourceDateEpoch: 1761565540
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 4131166
+Installed-Size: 6749386
 
 
 Package: tailscale
@@ -68,18 +68,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_arm1176jzf-s_vfp
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 737d24780c050c24ea68a0403c7fd22c220fc5a86bfa8273969b26a5a3de3873
-Size: 3376339
+SHA256sum: a8a8c627ac78e44b0e784723bd1be3df829f124284d89726be6bf41722746d48
+Size: 5433895
 Filename: tailscale_v1.90.2_arm_arm1176jzf-s_vfp.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -89,18 +89,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_arm926ej-s
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 32ad679a5a2f79132478511b8ed0ed61633a27f2f5363d4cb88c79a25fb6de2c
-Size: 3376337
+SHA256sum: 4244049927687bdf0c431a8aa5a58930f085542522b76a71891b367f6b2c07d1
+Size: 5433889
 Filename: tailscale_v1.90.2_arm_arm926ej-s.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -110,18 +110,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: a91a8b12ce227920569921cd859fb13804cf3830b2e20e6b6a2efaed6d76d29d
-Size: 3376344
+SHA256sum: 767e55bc0936511577507856c8557379a418c347974fb662069c4be30f807b7c
+Size: 5433900
 Filename: tailscale_v1.90.2_arm_cortex-a15_neon-vfpv4.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -131,18 +131,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a5_vfpv4
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 8d5064dc7f68409c36032bd43ae7331c101e15d747d1a0563f69edcd37776045
-Size: 3376342
+SHA256sum: f5b9ff2ecce820c854d0c9f341d90164296ebd3d00cf23606a8969c221a5a741
+Size: 5433893
 Filename: tailscale_v1.90.2_arm_cortex-a5_vfpv4.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -152,18 +152,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a7
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 52ce48e210e7a8c6467179b366cc9bf472f699501f870409b9212b5f985084b4
-Size: 3376334
+SHA256sum: 4a54b19a5c44756f78ff1d095fea78991915c630bb546aadfbae28629ba0c207
+Size: 5433888
 Filename: tailscale_v1.90.2_arm_cortex-a7.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -173,18 +173,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: a9b9857ed1a651222274396322c06d6872eeecb2f4b87c2c236ef6e37468a2a2
-Size: 3376344
+SHA256sum: 29f9f2d608e965188d4d296e9c5b93750c32327a2f3ddbbc4daf0c6f5fb5e819
+Size: 5433903
 Filename: tailscale_v1.90.2_arm_cortex-a7_neon-vfpv4.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -194,18 +194,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a7_vfpv4
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 348a59fd3bfd65f184cf3f06ea41af5c4474d8a414be16ff7ccc66938ae901fc
-Size: 3376345
+SHA256sum: 950b2b4e1db82bf1fc6116f734d83c3a67d5def664f38142ed00c9f6c06dc6c5
+Size: 5433894
 Filename: tailscale_v1.90.2_arm_cortex-a7_vfpv4.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -215,18 +215,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a8_vfpv3
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 9178ba3e46d2943c821fc2415e18e25d1ae9d74fc80928840bdccc94c79f31cf
-Size: 3376341
+SHA256sum: 6acd88ce1958532c1ff5eb38b012cd81d5f8f091e544be401f37446c7d3d2b8e
+Size: 5433894
 Filename: tailscale_v1.90.2_arm_cortex-a8_vfpv3.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -236,18 +236,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a9
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 0e0a558b3d968dd4d6636b1384d440fb9e3b1f7667eecb3424df722f174e8d06
-Size: 3376336
+SHA256sum: 6eac1240021e68b4c9e261bc4fa15b67d003fa1069f4e64bff3c5aa53e016bf3
+Size: 5433893
 Filename: tailscale_v1.90.2_arm_cortex-a9.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -257,18 +257,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a9_neon
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: cbf72a06982031394ed83c0feeacccc6d90decea10779a32c501800345c40e53
-Size: 3376339
+SHA256sum: 5364bfbef87cf42e120ad4d3588a33895f76b4b5485d7ca8ddbd6397dd380638
+Size: 5433892
 Filename: tailscale_v1.90.2_arm_cortex-a9_neon.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -278,18 +278,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 0fafbf6afb16d7daba7f5145e14b6e22b488b67477b3613901e9159aee1dda20
-Size: 3376346
+SHA256sum: 7b80562acacc708ad8171c1dc710920c78978cbe3aaa784b0aa8e379d4efc7c3
+Size: 5433895
 Filename: tailscale_v1.90.2_arm_cortex-a9_vfpv3-d16.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -299,18 +299,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_fa526
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 594c42e46a7bf965fdf1a7f69f3c77761681dc5c10a4478474bbfbbefb53d920
-Size: 3376339
+SHA256sum: a5a2fee5fef57a06178f766c5a79797efad30ed5c767a14c4c35e09f26b1405d
+Size: 5433885
 Filename: tailscale_v1.90.2_arm_fa526.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -320,18 +320,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_mpcore
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: e5271d7be5b1f8affae21ea6ef807085ba80951670bac3241738176da15f08be
-Size: 3376335
+SHA256sum: 5717f46bb7797c7db957daac5da912daf0012dd55110ad7ecc1b6724e53c0eac
+Size: 5433887
 Filename: tailscale_v1.90.2_arm_mpcore.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -341,18 +341,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: arm_xscale
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 94ece5957f63203668b022ac3527de3fda4ae70ec09d6eb40326fb52305faa42
-Size: 3376336
+SHA256sum: 526d9774135150ad2dd4895c01e7e5c0205e0408447c0163f40a57ab201e4d06
+Size: 5433886
 Filename: tailscale_v1.90.2_arm_xscale.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565508
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3373698
+Installed-Size: 5430722
 
 
 Package: tailscale
@@ -362,18 +362,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: aarch64_cortex-a53
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: d59d06bdf86abd24eed98b96207215be62588c57f0fd05cce066900ed4ba0152
-Size: 3394811
+SHA256sum: b1816abf6ddcbc6a9d60e8b6f7701b0e449fd3d0c229118caf3559d7ec9ff89c
+Size: 5526037
 Filename: tailscale_v1.90.2_aarch64_cortex-a53.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565506
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3392274
+Installed-Size: 5522870
 
 
 Package: tailscale
@@ -383,18 +383,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: aarch64_cortex-a72
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 094398c841c766d43f0d414e36efe2f7c478e29806adccb99e41c8e58bab42c2
-Size: 3394807
+SHA256sum: 339722318157d2b955401626c1f0e56f4259332dc0403dac3a9230faeb59d9fa
+Size: 5526040
 Filename: tailscale_v1.90.2_aarch64_cortex-a72.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565506
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3392274
+Installed-Size: 5522870
 
 
 Package: tailscale
@@ -404,18 +404,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: aarch64_cortex-a76
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 4b409fc48163e051e9a8f78292d608b8af0e72dd87f03000780e7232870ca3da
-Size: 3394807
+SHA256sum: 2069dda0d7b6fab6f9f50dccf9dddd94abe6e17a033ac0aa650d397268f766a1
+Size: 5526037
 Filename: tailscale_v1.90.2_aarch64_cortex-a76.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565506
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3392274
+Installed-Size: 5522870
 
 
 Package: tailscale
@@ -425,18 +425,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: aarch64_generic
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: e5acdad9ae72b8152e82a6713c044c15b0b13b25a29f3d5307310d991e28369a
-Size: 3394807
+SHA256sum: ba39ba035db7a55f819cac905c10fb2d8ecc809cd35d12682f0f5c450b9cc354
+Size: 5526035
 Filename: tailscale_v1.90.2_aarch64_generic.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565506
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3392274
+Installed-Size: 5522870
 
 
 Package: tailscale
@@ -446,18 +446,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: i386_pentium-mmx
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 3ea1a55a0ea155cf70ac97cf401441a2d3b1de3017b5ab65085ff9865b7dee97
-Size: 3611475
+SHA256sum: b605242aa4a6528709b4b630b5216cbe7a82cbc806e8858adb77acfdff3c22a5
+Size: 6339943
 Filename: tailscale_v1.90.2_i386_pentium-mmx.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565501
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3609034
+Installed-Size: 6336750
 
 
 Package: tailscale
@@ -467,18 +467,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: i386_pentium4
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: aca082e33ec875adba92d1c4119fd07a48ecb561f4a2ed47f4d7fba430772269
-Size: 3611475
+SHA256sum: bcd1c099bd3e53a3cb4b8e49df5d865f904c43f41e483efa71145198e05ad02b
+Size: 6339943
 Filename: tailscale_v1.90.2_i386_pentium4.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537419
+SourceDateEpoch: 1761565501
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3609034
+Installed-Size: 6336750
 
 
 Package: tailscale
@@ -488,18 +488,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mips_24kc
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 91fcee6f8a4f8b3204d25942ac2d5488c9f3b1bf50e0bd170d46c6e2defd99de
-Size: 3295347
+SHA256sum: d53a320be080f9622274d205c21102a4a72eb6a013f59106393242ed6ef83f01
+Size: 5287463
 Filename: tailscale_v1.90.2_mips_24kc.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565505
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3293478
+Installed-Size: 5285150
 
 
 Package: tailscale
@@ -509,18 +509,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mips_4kec
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: e1b896a0a089d73d05e90f2df96e12e71b1101bf9f860f39a53f58400e9a13dc
-Size: 3295349
+SHA256sum: 172e4feeae1a7e3ec3eee464cc5265ba9eea1cd48781bca072e26606fd8e7dac
+Size: 5287463
 Filename: tailscale_v1.90.2_mips_4kec.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565505
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3293478
+Installed-Size: 5285150
 
 
 Package: tailscale
@@ -530,18 +530,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mips_mips32
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 65d0d729937bcf2d5a3e6c087eb5ec58f0bab9dfdba8676421ea8df39e737488
-Size: 3295352
+SHA256sum: 8ab7f9fd5722c039e928e707d5680e8bfb7cdc0d425e0f1ddf51a196c930fee8
+Size: 5287461
 Filename: tailscale_v1.90.2_mips_mips32.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565505
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3293478
+Installed-Size: 5285150
 
 
 Package: tailscale
@@ -551,18 +551,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mips64_mips64r2
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 73e05c35022718f9e06861f4df2810c249e90d14f9216da6ae1e7e97013f1300
-Size: 4875483
+SHA256sum: fe488a7f0b45a7fe9b2c7b784aa32bcd51f358f7fd7990556e13c2d3f9395730
+Size: 8080601
 Filename: tailscale_v1.90.2_mips64_mips64r2_normal.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537408
+SourceDateEpoch: 1761565498
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 14942402
+Installed-Size: 25362626
 
 
 Package: tailscale
@@ -572,18 +572,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mips64_octeonplus
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: c3682c2323bb4945b61a56c78906136416ec38c19454e5c9d13185851836e85c
-Size: 4875486
+SHA256sum: b8a57dde837d3eebf844818584d47c61015844132bb4726aa52f2115f5c05de0
+Size: 8080599
 Filename: tailscale_v1.90.2_mips64_octeonplus_normal.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537408
+SourceDateEpoch: 1761565498
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 14942402
+Installed-Size: 25362626
 
 
 Package: tailscale
@@ -593,18 +593,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mips64el_mips64r2
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: c915ba9874807f50ddc979495ebceea362ac4c8be26678d23b49eeb85aeae925
-Size: 4775486
+SHA256sum: fa041f1fd7027002ea08957bad38044f7dc8daddf695f42c56a080b306939df4
+Size: 7917360
 Filename: tailscale_v1.90.2_mips64el_mips64r2_normal.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537409
+SourceDateEpoch: 1761565493
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 14942402
+Installed-Size: 25362626
 
 
 Package: tailscale
@@ -614,18 +614,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mipsel_24kc
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: efeca6d03165d6e274604728242f17917626be9bff8e25f21b14b87a4807b30a
-Size: 3358323
+SHA256sum: b97f52a8af5a00ed86ac4c3b41181040f96451c401b8b5d9ac9fcca60660e47d
+Size: 5391497
 Filename: tailscale_v1.90.2_mipsel_24kc.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565503
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3356442
+Installed-Size: 5389030
 
 
 Package: tailscale
@@ -635,18 +635,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mipsel_24kc_24kf
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: c64eae7daec9dbd39b7a87d8b68987b7a2798e506269e177280618bec04eb9fe
-Size: 3358325
+SHA256sum: f11d03cff84138e78519bf8f5a087bf5aafe82955e61a90fdbf4444fde2da995
+Size: 5391497
 Filename: tailscale_v1.90.2_mipsel_24kc_24kf.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565503
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3356442
+Installed-Size: 5389030
 
 
 Package: tailscale
@@ -656,18 +656,18 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mipsel_74kc
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: 122943877051259bf61510bfb45ac42ee76412617ed287694f408032c2d1f36b
-Size: 3358329
+SHA256sum: 0b5af9223f5bc8215ad502ffd9b0e22048dde713502a12de0983553051b3a8de
+Size: 5391502
 Filename: tailscale_v1.90.2_mipsel_74kc.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565503
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3356442
+Installed-Size: 5389030
 
 
 Package: tailscale
@@ -677,17 +677,17 @@ Provides: tailscale tailscaled
 Section: net
 Architecture: mipsel_mips32
 Maintainer: GuNan <gunanovo@gmail.com>
-SHA256sum: db91d45de2ba54379371e0fee192217fbf4dc318d0949dade7ed9a765bcc6a40
-Size: 3358324
+SHA256sum: 3ff8264a9a594e8e6964ab416af6f3f367d510e6e1d028cbdede662686ae5fe4
+Size: 5391499
 Filename: tailscale_v1.90.2_mipsel_mips32.ipk
 Source: https://github.com/GuNanOvO/openwrt-tailscale
 Description: A smaller version of Tailscale.Built for OpenWrt.
 License: BSD-3-Clause
 SourceName: openwrt-tailscale
 LicenseFiles: LICENSE
-SourceDateEpoch: 1761537415
+SourceDateEpoch: 1761565503
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
-Installed-Size: 3356442
+Installed-Size: 5389030
 
 

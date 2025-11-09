@@ -97,7 +97,7 @@ tailscale up \
 > >    ```
 > > 3. 在该行后方加上参数 `GOGC=10` 
 > >    ```bash
-> >    procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode GOGC=10"  
+> >    procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode" GOGC=10  
 > >    ```
 > >    该参数将使tailscale更积极地回收内存
 

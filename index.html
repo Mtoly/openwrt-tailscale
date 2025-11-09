@@ -122,7 +122,7 @@ opkg install tailscale</pre>
                         <li>Locate the following line:</li>
                         <pre>procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode"</pre>
                         <li>Append <code>GOGC=10</code> to the end of that line so it becomes:</li>
-                        <pre>procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode GOGC=10"</pre>
+                        <pre>procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode" GOGC=10</pre>
                         <p>This will make Tailscale more aggressive in memory garbage collection.</p>
                     </ol>
                 </div>
@@ -213,7 +213,7 @@ opkg install tailscale</pre>
                         <li>找到以下一行：</li>
                         <pre>procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode"</pre>
                         <li>在该行后方加上参数 <code>GOGC=10</code>，使其变为：</li>
-                        <pre>procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode GOGC=10"</pre>
+                        <pre>procd_set_param env TS_DEBUG_FIREWALL_MODE="$fw_mode" GOGC=10</pre>
                         <p>该参数将使 Tailscale 更积极地回收内存。</p>
                     </ol>
                 </div>

@@ -60,6 +60,13 @@ opkg install tailscale
 
 ---
 
+## Web UI (LuCI)
+
+为了获得图形界面来管理 Tailscale，我们建议安装由 [@Tokisaki-Galaxy](https://github.com/Tokisaki-Galaxy) 开发并在 GitHub 上开源的 LuCI 应用：[luci-app-tailscale-community](https://github.com/Tokisaki-Galaxy/luci-app-tailscale-community)  
+这提供了一个易于使用的 Web 界面，可以直接从 OpenWrt 的 LuCI 仪表板配置和管理 Tailscale。
+
+---
+
 ## 安装后步骤
 
 安装完成后，需要配置 Tailscale 以将设备接入 Tailscale 网络。
